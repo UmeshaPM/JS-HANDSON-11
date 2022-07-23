@@ -1,0 +1,76 @@
+h1{
+    color: darkred;
+}
+
+.box{
+    width: 150px;
+    height: 10px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    padding: 78px 10px 0px 10px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.flexcontainer{
+    display: flex;
+    flex-direction: row;
+}
+
+.box{
+ height:200px ;
+ width:150px ;
+ background-color: rgb(255, 51, 0);
+ margin: 30px;
+}
+.changeDirection{
+    padding: 4px 10px;
+    border-radius: 20px;
+    border: 2px solid orange;
+    background-color: black;
+    font-size: 1.1rem;
+    color: lawngreen;
+}
+#helloText{
+    font-size: 2rem;
+    color: darkslateblue;
+}
+.buttonTwo{
+    padding: 4px 10px;
+    border-radius: 20px;
+    color: black;
+}
+#timer{
+    width: 60%;
+    height: 120px;
+    box-sizing: border-box;
+    border:solid #000;
+    font-size: 3.2rem;
+    font-weight: bold;
+    color: darkblue;
+    margin-top: 20px;
+    text-align: center;
+    padding-top: 20px;
+}
+#dropdown{
+    width: 20%;
+    height: 200px;
+    margin-top: 30px;
+    padding: 20px 20px;
+    border:solid #000;
+}
+select{
+    width: 70%;
+    height: 20px;
+}
+form{
+    width: 80%;
+    height: 250px;
+    border:solid rgb(242, 6, 6);
+    margin-top: 30px;
+    padding: 20px 10px;
+}
+input{
+    margin-top: 12px;
+    margin-left: 15px;
+}
